@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooler City</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>  
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">COOLER CITY<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#quality">quality</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/coolercity_official/?" class="fa-brands fa-instagram"></a>
+            <a href="https://www.tiktok.com/@coolercityindo?lang=en" class="fa-brands fa-tiktok"></a>
+            <a href="https://www.facebook.com/p/Cooler-city-indonesia-100088234536514/" class="fa-brands fa-facebook"></a>
+        </div>
+    </header>
+
+<!-- home section -->
+    <section class="home" id="home">
+        <div class="circle"></div>
+        <div class="content">
+            <div class="textb">
+                <h3>Cooling your city one <span>ice cream</span> at a time!</h3>
+                <p>
+                    Enjoy every bite of sensation from our Ice Cream<span>.</span>
+                </p>
+                <a href="#about" class="btn"> learn more</a>
+            </div>
+            <div class="imgb">
+                <img src="img/img3.png" class="cc">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/minum3.png" onclick="imgSlider('img/minum3.png');changeCircleColor('#ffbf8f')"></li>
+            <li><img src="img/minum2.png" onclick="imgSlider('img/minum2.png');changeCircleColor('#ffd787')"></li>
+            <li><img src="img/minum1.png" onclick="imgSlider('img/minum1.png');changeCircleColor('#e76b6d')"></li>
+        </ul>
+    </section>
+    <script src="cc.js"></script>
+
+<!-- banner section-->
+<section class="banner">
+    <h1 class="heading"> now <span>promo</span> </h1>
+    
+    <div class="bbanner">
+        <div class="bannerimg">
+            <img src="img/b3.jpg">
+        </div>
+        <div class="bannerimg">
+            <img src="img/b2.jpg">
+        </div>
+        <div class="bannerimg">
+            <img src="img/b1.jpg">
+        </div>
+    </div>
+    </section>
+
+<!-- about section -->
+    <section class="about" id="about">
+
+        <div class="row">
+            <div class="slide-container">
+                <img src="img/cc1.png">
+                <h3>best ice shop</h3>
+            </div>
+            <div class="slide-container">
+                <img src="img/cc2.png">
+                <h3>best ice shop</h3>
+            </div>
+
+
+            <div class="content">
+                <h3>kenapa cooler city?</h3>
+                <p>
+                    Kami mengutamakan kualitas dalam setiap gigitan es krim kami. Menggunakan bahan-bahan segar dan berkualitas tinggi, 
+                    kami memberikan rasa es krim yang autentik dan tak terlupakan setiap kali Anda mencoba.
+                </p>
+                <p>
+                    Nikmati petualangan rasa dengan beragam pilihan unik dari es krim kami. Mulai dari klasik vanilla dan coklat yang lezat 
+                    hingga topping rasa eksotis seperti mangga segar dan stroberi manis, kami memiliki sesuatu untuk setiap selera.
+                </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+        </div>
+
+        <script src="cc.js"></script>
+    </section>
+
+<!-- quality section-->
+
+    <section class="quality" id="quality">
+        <div class="qualityp">
+            <img src="img/q1.png" alt="Picture 1">
+            <img src="img/q2.png" alt="Picture 2">
+            <img src="img/q3.png" alt="Picture 3">
+        </div>
+        <div class="qualitypp">
+            <p>Discover our premium selection of tea, milk, and delicious toppings.</p>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Aku suka banget bangett sama es krim di sini! Tempat nongkrongnya juga nyamaan. Boleh deh 10/10!
+                </p>
+                <div class="user">
+                    <img src="img/ava1.jpg">
+                    <div class="user-info">
+                        <h3>Daffa Ahmad</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Varian es krim dan minumannya banyak banget dan enak enak semuaa tapi favorite aku itu Classic Coffeenya! 
+                </p>
+                <div class="user">
+                    <img src="img/ava1.jpg">
+                    <div class="user-info">
+                        <h3>Salsabillah F.</h3>
+                        <span>joyful customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>
+                    Aku sering nugas bareng teman-teman di sini! Selain murah murah juga enak banget, jadi seger nemenin mumet nugas hehe
+                </p>
+                <div class="user">
+                    <img src="img/ava1.jpg">
+                    <div class="user-info">
+                        <h3>Kayla Nst</h3>
+                        <span>cheer customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        
+        </div>
+            
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span> contact </span> us </h1>
+        <div class="f2">
+            <img src="img/f2.png">
+        </div>
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="img/f1.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--- footer section starts ---->
+    <footer>
+        <div class="footer-container">
+            <p>©2023, Cooler City. All rights reserved. Terms of Use and Privacy Policy.</p>
+            <p>Website Design by Kayla</p>
+        </div>
+    </footer>
+</body>
+
+</html>
